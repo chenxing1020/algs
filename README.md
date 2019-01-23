@@ -12,14 +12,6 @@
 
 ## **常用排序**
 
-<table>
-    <tr>
-        <td rowspan="2">交换排序</td>    
-        <td >冒泡排序</td>  
-        <td ><a herf="src/com/cx/BubbleSort.java">BubbleSort.java</a></td>  
-    </tr>
-    <tr>
-        <td >快速排序</td>  
-        <td ><a herf="./src/com/cx/BubbleSort.java">BubbleSort.java</a></td>  
-    </tr>
-</table>
+|||
+|---|---|
+|交换排序|冒泡排序<br>快速排序|
