@@ -12,6 +12,6 @@
 
 ## **常用排序**
 
-|||
-|---|---|
-|交换排序|冒泡排序<br>快速排序|
+|类型|方法|类|
+|---|---|---|
+|交换排序|冒泡排序<br>快速排序|[BubbleSort.java](./src/com/cx/BubbleSort.java)<br>[QuickSort.java](./src/com/cx/QuickSort.java)|
