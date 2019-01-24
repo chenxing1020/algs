@@ -3,7 +3,7 @@ package com.cx;
 import java.util.Arrays;
 
 /**
- * 快速排序
+ * 快速排序，找一个基准数，固定基准数的位置，然后不断分治
  */
 public class QuickSort {
 
