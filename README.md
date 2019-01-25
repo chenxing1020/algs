@@ -16,3 +16,4 @@
 |---|---|---|
 |交换排序|冒泡排序<br>快速排序|[BubbleSort.java](./src/com/cx/BubbleSort.java)<br>[QuickSort.java](./src/com/cx/QuickSort.java)|
 |插入排序|直接插入<br>希尔排序|[InsertSort.java](./src/com/cx/InsertSort.java)<br>[ShellSort.java](./src/com/cx/ShellSort.java)|
+|选择排序|*|[SelectSort.java](./src/com/cx/SelectSort.java)|
