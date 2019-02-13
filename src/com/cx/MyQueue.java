@@ -31,4 +31,9 @@ public class MyQueue {
         return element;
     }
 
+    //判断是否为空
+    public boolean isEmpty(){
+        return elements.length==0;
+    }
+
 }
