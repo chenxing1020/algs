@@ -1,4 +1,4 @@
-package com.cx;
+package com.cx.Linear;
 
 public class MyStack {
     int[] elements;

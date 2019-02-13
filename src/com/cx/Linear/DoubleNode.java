@@ -1,4 +1,4 @@
-package com.cx;
+package com.cx.Linear;
 
 //双向循环链表
 public class DoubleNode {
