@@ -12,8 +12,11 @@
 
 ## **常用排序**
 
-|类型|方法|类|
-|---|---|---|
-|交换排序|冒泡排序<br>快速排序|[BubbleSort.java](./src/com/cx/BubbleSort.java)<br>[QuickSort.java](./src/com/cx/QuickSort.java)|
-|插入排序|直接插入<br>希尔排序|[InsertSort.java](./src/com/cx/InsertSort.java)<br>[ShellSort.java](./src/com/cx/ShellSort.java)|
-|选择排序|*|[SelectSort.java](./src/com/cx/SelectSort.java)|
+|排序方法|类|
+|---|---|
+|冒泡排序|[BubbleSort.java](./src/com/cx/BubbleSort.java)|
+|快速排序|[QuickSort.java](./src/com/cx/QuickSort.java)|
+|插入排序|[InsertSort.java](./src/com/cx/InsertSort.java)|
+|希尔排序|[ShellSort.java](./src/com/cx/ShellSort.java)|
+|选择排序|[SelectSort.java](./src/com/cx/SelectSort.java)|
+|归并排序|[MergeSort.java](./src/com/cx/MergeSort.java)|
