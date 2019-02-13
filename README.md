@@ -21,3 +21,17 @@
 |选择排序|[SelectSort.java](./src/com/cx/Sort/SelectSort.java)|
 |归并排序|[MergeSort.java](./src/com/cx/Sort/MergeSort.java)|
 |基数排序|[RadixSort.java](./src/com/cx/Sort/RadixSort.java)|
+
+## **树**
+
+### 链式存储的二叉树
+类[BinaryTree.java](./src/com/cx/Tree/BinaryTree.java)
+结点类[TreeNode.java](./src/com/cx/Tree/TreeNode.java)
+
+|链式二叉树的操作|方法|
+|---|---|
+|前序遍历|frontShow()|
+|中序遍历|midShow()|
+|后序遍历|afterShow()|
+|前序查找|frontSearch(i)|
+|删除子树|delete(i)|
