@@ -35,21 +35,21 @@ public class TreeNode {
         return this.value;
     }
 
-    //前序遍历
+    //前序遍历 中左右
     public void frontShow() {
         System.out.print(value);
         if (lNode != null) lNode.frontShow();
         if (rNode != null) rNode.frontShow();
     }
 
-    //中序遍历
+    //中序遍历 左中右
     public void midShow() {
         if (lNode != null) lNode.midShow();
         System.out.print(value);
         if (rNode != null) rNode.midShow();
     }
 
-    //后序遍历
+    //后序遍历 左右中
     public void afterShow() {
         if (lNode != null) lNode.afterShow();
         if (rNode != null) rNode.afterShow();

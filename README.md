@@ -25,6 +25,7 @@
 ## **树**
 
 ### 链式存储的二叉树
+
 类[BinaryTree.java](./src/com/cx/Tree/BinaryTree.java)
 结点类[TreeNode.java](./src/com/cx/Tree/TreeNode.java)
 
@@ -35,3 +36,13 @@
 |后序遍历|afterShow()|
 |前序查找|frontSearch(i)|
 |删除子树|delete(i)|
+
+### 顺序存储的二叉树
+
+只适用于完全二叉树
+类[ArrayBinaryTree](./src/com/cx/Tree/ArrayBinaryTree.java)
+应用：堆排序
+
+|顺序存储二叉树的操作|方法|
+|---|---|
+|前序遍历|frontShow()|
