@@ -21,12 +21,13 @@
 |选择排序|[SelectSort.java](./src/com/cx/Sort/SelectSort.java)|
 |归并排序|[MergeSort.java](./src/com/cx/Sort/MergeSort.java)|
 |基数排序|[RadixSort.java](./src/com/cx/Sort/RadixSort.java)|
+|堆排序|[HeapSort.java](./src/com/cx/Sort/HeapSort.java)|
 
 ## **树**
 
 ### 链式存储的二叉树
 
-类[BinaryTree.java](./src/com/cx/Tree/BinaryTree.java)
+类[BinaryTree.java](./src/com/cx/Tree/BinaryTree.java)  
 结点类[TreeNode.java](./src/com/cx/Tree/TreeNode.java)
 
 |链式二叉树的操作|方法|
@@ -39,10 +40,10 @@
 
 ### 顺序存储的二叉树
 
-只适用于完全二叉树
-类[ArrayBinaryTree](./src/com/cx/Tree/ArrayBinaryTree.java)
+只适用于完全二叉树  
+类[ArrayBinaryTree](./src/com/cx/Tree/ArrayBinaryTree.java)  
 应用：堆排序
 
 |顺序存储二叉树的操作|方法|
 |---|---|
-|前序遍历|frontShow()|
+|前序遍历|frontShow(i)|
