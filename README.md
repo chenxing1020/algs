@@ -58,3 +58,23 @@
 |---|---|
 |中序线索化|threadNodes(node)|
 |中序遍历|mi'dShow()|
+
+### 霍夫曼树
+
+带权路径最小，可用于压缩编码。  
+类[HuffmanTree.java](./src/com/cx/Tree/HuffmanTree.java)  
+
+### 二叉排序树
+
+有序的顺序存储查找方便，插入困难；  
+无序的顺序存储查找困难，插入简单；  
+链式存储插入和查找都困难；  
+二叉排序树插入和查找性能都不会太差。  
+类[BinarySortTree.java](./src/com/cx/Tree/BinarySortTree.java)  
+结点类[Node.java](./src/com/cx/Tree/Node.java)  
+
+|二叉排序树的操作|方法|
+|---|---|
+|插入结点|add(node)|
+|查找结点|search(value)|
+|删除结点|delete(value)|
