@@ -41,9 +41,20 @@
 ### 顺序存储的二叉树
 
 只适用于完全二叉树  
-类[ArrayBinaryTree](./src/com/cx/Tree/ArrayBinaryTree.java)  
+类[ArrayBinaryTree.java](./src/com/cx/Tree/ArrayBinaryTree.java)  
 应用：堆排序
 
 |顺序存储二叉树的操作|方法|
 |---|---|
 |前序遍历|frontShow(i)|
+
+### 线索二叉树
+
+遍历高效  
+类[ThreadedBinaryTree.java](./src/com/cx/Tree/ThreadedBinaryTree.java)  
+结点类[ThreadedNode.java](./src/com/cx/Tree/ThreadedNode.java)  
+
+|线索二叉树的操作|方法|
+|---|---|
+|中序线索化|threadNodes(node)|
+|中序遍历|mi'dShow()|
