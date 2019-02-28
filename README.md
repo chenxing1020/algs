@@ -1,6 +1,13 @@
 # algs
 
-## **线性结构**
+## 目录
+
+- [:coffee: 线性结构](#coffee-线性结构)
+- [:open_file_folder: 常用排序](#open_file_folder-常用排序)
+- [:computer: 树](#computer-树)
+- [:floppy_disk: 散列表](#floppy_disk-散列表)
+
+## :coffee: **线性结构**
 
 |数据结构|类|
 |---|---|
@@ -10,7 +17,7 @@
 |循环链表|[LoopNode.java](./src/cx/Linear/LoopNode.java)|
 |双向链表|[DoubleNode.java](./src/cx/Linear/DoubleNode.java)|
 
-## **常用排序**
+## :open_file_folder: 常用排序
 
 |排序方法|类|
 |---|---|
@@ -23,7 +30,7 @@
 |基数排序|[RadixSort.java](./src/cx/Sort/RadixSort.java)|
 |堆排序|[HeapSort.java](./src/cx/Sort/HeapSort.java)|
 
-## **树**
+## :computer: 树
 
 ### 链式存储的二叉树
 
@@ -100,7 +107,7 @@
 具体见 算法第四版 的2-3树和左倾红黑树。  
 自己编的小口决：左黑右红即左旋，红左连续即右旋，左右全红变全黑，根节点总为黑。
 
-## 散列表（哈希表）
+## :floppy_disk: 散列表
 
 通过计算键值对中健的散列函数得到索引，通过索引值来进行查找和插入删除。  
 散列表的关键在于处理碰撞冲突，因而可以分为两种实现：基于拉链法和基于开发地址的散列表。  
